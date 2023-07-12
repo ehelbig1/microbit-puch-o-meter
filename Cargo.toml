@@ -1,7 +1,7 @@
 [package]
-name = "uart"
+name = "microbit-punch-o-meter"
 version = "0.1.0"
-authors = ["Henrik Böving <hargonix@gmail.com>"]
+authors = ["Evan Helbig <evan@evanhelbig.com>"]
 edition = "2018"
 
 [dependencies]
@@ -13,3 +13,4 @@ nb = "1.0.0"
 heapless = "0.7.10"
 embedded-hal = "0.2.6"
 microbit-v2 = "0.13"
+lsm303agr = "0.2.2"
